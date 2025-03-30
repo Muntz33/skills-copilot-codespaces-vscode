@@ -9,3 +9,6 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
+		
+group("cpu_features") {
+  public_deps = [ "//third_party/cpu_features:ndk_compat" ]
